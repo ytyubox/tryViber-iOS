@@ -15,11 +15,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="tD6-lf-TPb">
-                                <rect key="frame" x="132.5" y="398.5" width="149" height="99"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tD6-lf-TPb">
+                                <rect key="frame" x="132.5" y="402.5" width="149" height="91"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIt-mf-ndi">
                                         <rect key="frame" x="0.0" y="0.0" width="149" height="61"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         <string key="text">播放連續3次震動，
 每次時間不可改，
 最小間隔 0.5 秒</string>
@@ -28,8 +29,8 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5I-3b-1QD">
-                                        <rect key="frame" x="0.0" y="69" width="149" height="30"/>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <rect key="frame" x="0.0" y="61" width="149" height="30"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                         <state key="normal" title="Viber me"/>
                                         <connections>
                                             <action selector="didTapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lsm-Z7-0FK"/>
@@ -38,7 +39,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="tD6-lf-TPb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TCL-nY-s6l"/>
                             <constraint firstItem="tD6-lf-TPb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iiB-uc-XOE"/>

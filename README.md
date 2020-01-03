@@ -1,6 +1,6 @@
 #  Demo of iOS viber
 
-![](tryViber.jpeg)
+![](demo-tryViber.jpeg)
 
 ## limitation
 

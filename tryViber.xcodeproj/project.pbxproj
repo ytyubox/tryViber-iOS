@@ -25,7 +25,7 @@
 		A7DE775C23BF320A00CE6FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7DE775E23BF320A00CE6FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7DE776423BF380100CE6FB4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A7DE776523BF383E00CE6FB4 /* tryViber.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tryViber.jpeg; sourceTree = "<group>"; };
+		A7DE776723BF399000CE6FB4 /* demo-tryViber.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "demo-tryViber.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				A7DE776423BF380100CE6FB4 /* README.md */,
-				A7DE776523BF383E00CE6FB4 /* tryViber.jpeg */,
+				A7DE776723BF399000CE6FB4 /* demo-tryViber.jpeg */,
 				A7DE774F23BF320800CE6FB4 /* tryViber */,
 				A7DE774E23BF320800CE6FB4 /* Products */,
 			);
